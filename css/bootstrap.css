@@ -16,6 +16,7 @@ body {
     margin: 0
 }
 
+
 article,
 aside,
 details,
@@ -2012,7 +2013,8 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;    
+    
 }
 
 .col-lg-1,
