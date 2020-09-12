@@ -83,7 +83,7 @@ function stickyNavToggle() {
         e = "sticky";
     if ($(".sticky-nav").hasClass("fill-bloc-top-edge")) {
         var i = $(".fill-bloc-top-edge.sticky-nav").parent().css("background-color");
-        "rgba(0, 0, 0, 0)" == i && (i = "#FFFFFF"), $(".sticky-nav").css("background", i), t = $(".sticky-nav").height(), e = "sticky animated fadeInDown"
+        "rgba(0, 0, 0, 0)" == i && (i = "#000000"), $(".sticky-nav").css("background", i), t = $(".sticky-nav").height(), e = "sticky animated fadeInDown"
     }
     $(window).scrollTop() > t ? ($(".sticky-nav").addClass(e), "sticky" == e && $(".page-container").css("padding-top", $(".sticky-nav").height())) : ($(".sticky-nav").removeClass(e).removeAttr("style"), $(".page-container").removeAttr("style"))
 }
