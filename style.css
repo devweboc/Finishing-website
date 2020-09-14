@@ -97,10 +97,7 @@ a:hover {
 .row a:visited{
     color:black;
 }
-.row a:hover{
-    color:white;
-    background:black;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -720,7 +717,7 @@ p {
 
 #cta-hero {
     margin-top: 22px;
-    color:white;
+    color:black;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -732,9 +729,7 @@ p {
     margin: auto auto auto auto;
       
 }
-.social a:hover{
-    color:white;
-}
+
 .fa{ 
    margin:1.5rem;
 }
