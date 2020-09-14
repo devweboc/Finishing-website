@@ -92,10 +92,10 @@ a:hover {
 
 .row a:link{
     text-decoration:none;
-    color:white;
+    color:black;
 }
 .row a:visited{
-    color:white;
+    color:black;
 }
 
 
