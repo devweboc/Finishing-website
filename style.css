@@ -90,7 +90,16 @@ a:hover {
     right: 0;
 }
 
-
+.row a:link{
+    text-decoration:none;
+    color:black;
+}
+.row a:visited{
+    color:black;
+}
+.row a:hover{
+    color:white;
+    background:black;
 }
 
 .b-parallax {
@@ -271,6 +280,9 @@ a:hover {
 }
 .article span{
     font-size:1rem;
+}
+.col-sm-12 a{
+    text-decoration: none;
 }
 /*fin modification css*/
 
@@ -708,7 +720,7 @@ p {
 
 #cta-hero {
     margin-top: 22px;
-    color: rgb(0, 0, 0);
+    color:white;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -848,11 +860,11 @@ h4 {
 
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
