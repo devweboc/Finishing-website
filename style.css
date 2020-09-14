@@ -92,10 +92,10 @@ a:hover {
 
 .row a:link{
     text-decoration:none;
-    color:black;
+    color:white;
 }
 .row a:visited{
-    color:black;
+    color:white;
 }
 
 
@@ -802,9 +802,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
 
 .bgc-atomic-tangerine {
     background-color: rgb(241, 100, 34);
